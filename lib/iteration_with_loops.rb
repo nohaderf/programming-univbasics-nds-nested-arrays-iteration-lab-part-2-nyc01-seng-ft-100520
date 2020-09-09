@@ -6,8 +6,8 @@ def find_min_in_nested_arrays(src)
   min_temp_array = [ ]
   row_index = 0
   while row_index < src.length do
-    src[row_index].min
-    min_temp_array.push(src[row_index].min)
+    min_temp = src[row_index].min
+    min_temp_array.push(min_temp)
   row_index += 1
   end
 end
